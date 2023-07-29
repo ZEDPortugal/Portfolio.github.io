@@ -182,3 +182,11 @@ body {
 .home-sci a:hover::before {
     width: 100%;
 }
+
+/* Responsive changes */
+
+@media screen and (max-width: 375px) {
+    .home-sci {
+      bottom: -5px;
+    }
+}
