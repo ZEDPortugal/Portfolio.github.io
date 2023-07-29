@@ -186,7 +186,15 @@ body {
 /* Responsive changes */
 
 @media screen and (max-width: 375px) {
+    
     .home-sci {
       bottom: -5px;
     }
+
+    .btn-box {
+        padding: 0 5%;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -15px;
+      }
 }
