@@ -94,7 +94,7 @@ html {
 
 .home-content p {
     font-size: 16px;
-    margin: 20px 0 40px;
+    margin: 20px 0px 20px;
 }
 
 .home-content .btn-box {
@@ -203,9 +203,9 @@ html {
     width: 100%;
 }
 
-/* Profile */
+/* education */
 
-.profile {
+.education {
     height: 100vh;
     background: url();
     display: flex;
@@ -213,18 +213,18 @@ html {
     padding: 0 10%;
 }
 
-.profile-content {
+.education-content {
     max-width: 600px;
 }
 
 
-.profile-content h3 {
+.education-content h3 {
     font-size: 32px;
     font-weight: 700;
     color: #c3073f;
 }
 
-.profile-content p {
+.education-content p {
     font-size: 16px;
     margin: 20px 0 40px;
 }
@@ -274,6 +274,12 @@ html {
 @media screen and (max-width: 375px) {
 
     /* HOME */
+
+    .home-content p {
+        font-size: 16px;
+        margin: 20px 0px 20px;
+        padding: 0px 40px 0px 0px;
+    }
 
         
     .home-sci {
